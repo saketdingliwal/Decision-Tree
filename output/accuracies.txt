@@ -10,3 +10,19 @@
 ('test accuracy ', 20, 0.8083333333333333)
 ('train accuracy ', 40, 0.6763157894736842)
 ('test accuracy ', 40, 0.7)
+
+MNSIT-> 150 and 0.1 single perceptron
+('train accuracy ', 0.9725)
+('test accuracy ', 0.9713888888888889)
+
+MNSIT-> architecture(len(X[0]),[100],1)
+epoch -> 200 lr = 1/sqrt(t)
+('train accuracy ', 0.9764)
+('test accuracy ', 0.9747222222222223)
+
+MNSIT-> architecture(len(X[0]),[100],1,relu=1)
+epoch -> 10 lr = 1/sqrt(t)
+('train accuracy ', 0.9845)
+('test accuracy ', 0.9838888888888889)
+
+
